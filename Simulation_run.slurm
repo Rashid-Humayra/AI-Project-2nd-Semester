@@ -11,7 +11,7 @@
 #SBATCH --output=logs/%j.out
 
 
-export OPENAI_API_KEY=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
+export OPENAI_API_KEY=*********
 
 # if you train nerf
 #python main.py -y config/waymo-1137.yaml -p "Add a police car in front of me, driving away fast." -s Simulation2
