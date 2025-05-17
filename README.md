@@ -1,3 +1,6 @@
+# This project is an extension of the original repo. For educational purposes only
+
+
 # ChatSim
 Editable Scene Simulation for Autonomous Driving via LLM-Agent Collaboration
 
