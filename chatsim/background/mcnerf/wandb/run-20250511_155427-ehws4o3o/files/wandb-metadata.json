@@ -1,0 +1,90 @@
+{
+  "os": "Linux-6.1.135-1.el9.elrepo.x86_64-x86_64-with-glibc2.34",
+  "python": "CPython 3.9.21",
+  "startedAt": "2025-05-11T13:54:27.081076Z",
+  "args": [
+    "--config-name=wanjinyou_big",
+    "dataset_name=waymo_multi_view",
+    "case_name=segment-11379226583756500423_6230_810_6250_810_with_camera_labels",
+    "exp_name=exp_coeff_0.15",
+    "mode=render_wide_angle_hdr_shutter",
+    "is_continue=true",
+    "+work_dir=/home/mundus/hrashid173/ChatSim/chatsim/background/mcnerf"
+  ],
+  "program": "/home/mundus/hrashid173/ChatSim/chatsim/background/mcnerf/scripts/run.py",
+  "codePath": "scripts/run.py",
+  "email": "hrzannat710@gmail.com",
+  "root": "/home/mundus/hrashid173/ChatSim/chatsim/background/mcnerf",
+  "host": "mundus-mir-2",
+  "executable": "/home/mundus/hrashid173/miniconda3/envs/chatsim/bin/python",
+  "codePathLocal": "scripts/run.py",
+  "cpu_count": 32,
+  "cpu_count_logical": 64,
+  "gpu": "NVIDIA A100-PCIE-40GB",
+  "gpu_count": 2,
+  "disk": {
+    "/": {
+      "total": "36633051136",
+      "used": "5252661248"
+    }
+  },
+  "memory": {
+    "total": "202236993536"
+  },
+  "cpu": {
+    "count": 32,
+    "countLogical": 64
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA A100-PCIE-40GB",
+      "memoryTotal": "42949672960",
+      "architecture": "Ampere"
+    },
+    {
+      "name": "NVIDIA A100-PCIE-40GB",
+      "memoryTotal": "42949672960",
+      "architecture": "Ampere"
+    }
+  ],
+  "slurm": {
+    "cluster_name": "liscluster",
+    "conf": "/etc/slurm/slurm.conf",
+    "cpus_on_node": "2",
+    "cpus_per_task": "1",
+    "gpus_on_node": "1",
+    "gtids": "0",
+    "job_cpus_per_node": "2",
+    "job_end_time": "1747058000",
+    "job_gid": "15107",
+    "job_gpus": "1",
+    "job_id": "155848",
+    "job_name": "Simulation",
+    "job_nodelist": "mundus-mir-2",
+    "job_num_nodes": "1",
+    "job_partition": "all",
+    "job_qos": "normal",
+    "job_start_time": "1746971600",
+    "job_uid": "14417",
+    "job_user": "hrashid173",
+    "jobid": "155848",
+    "localid": "0",
+    "mem_per_node": "184320",
+    "nnodes": "1",
+    "node_aliases": "(null)",
+    "nodeid": "0",
+    "nodelist": "mundus-mir-2",
+    "nprocs": "1",
+    "ntasks": "1",
+    "prio_process": "0",
+    "procid": "0",
+    "submit_dir": "/home/mundus/hrashid173/ChatSim",
+    "submit_host": "sms-cluster.lis-lab.fr",
+    "task_pid": "2896058",
+    "tasks_per_node": "1",
+    "topology_addr": "mundus-mir-2",
+    "topology_addr_pattern": "node",
+    "working_cluster": "liscluster:sms-cluster.lis-lab.fr:6817:9984:109"
+  },
+  "cudaVersion": "12.8"
+}
